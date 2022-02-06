@@ -1,4 +1,4 @@
-let array = [];
+const array = [];
 
 function generateRND(min, max){
 
