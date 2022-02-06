@@ -8,9 +8,9 @@ function generateRND(min, max){
     for (i = 0; i < 10; i++)
     array [i] = Math.floor(Math.random() * (max - min)) + min;
 
-    document.getElementById('rnd').innerHTML = array;
-    document.getElementById('min').innerHTML = Math.min.apply(null,array);
-    document.getElementById('max').innerHTML = Math.max.apply(null,array);
+    document.querySelector('#rnd').value = array;
+    document.querySelector('#min').value = Math.min.apply(null,array);
+    document.querySelector('#max').value = Math.max.apply(null,array);
 
     let sum = 0;
     let mpy = 1;
@@ -20,7 +20,12 @@ function generateRND(min, max){
         mpy *= array[i];
     }
 
-    document.getElementById('avg').innerHTML = sum / array.length;
-    document.getElementById('sum').innerHTML = sum;
-    document.getElementById('mpy').innerHTML = mpy;
+    document.querySelector('#avg').value = sum / array.length;
+    document.querySelector('#sum').value = sum;
+    document.querySelector('#mpy').value = mpy;
 }
+
+
+document.querySelector("#generate").addEventListener("click", function(event) {
+    event.preventDefault();
+});
