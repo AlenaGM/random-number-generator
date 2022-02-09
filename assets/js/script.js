@@ -1,9 +1,14 @@
 const array = [];
 
-function generateRND(min, max){
+document.querySelector("#generate").addEventListener("click", function(event) {
+    event.preventDefault();
+    generateRND();
+});
 
-    min = Math.ceil(-10);
-    max = Math.floor(10);
+function generateRND(){
+
+    const min = Math.ceil(-10);
+    const max = Math.floor(10);
 
     for (i = 0; i < 10; i++)
     array [i] = Math.floor(Math.random() * (max - min)) + min;
@@ -25,7 +30,3 @@ function generateRND(min, max){
     document.querySelector('#mpy').value = mpy;
 }
 
-
-document.querySelector("#generate").addEventListener("click", function(event) {
-    event.preventDefault();
-});
