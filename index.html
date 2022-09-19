@@ -1,55 +1,65 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap&subset=cyrillic-ext" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="shortcut icon" href="assets/img/numbers.png" type="img/png">
-    <title>Генератор случайных чисел</title>
-</head>
-<body>
-    <div class = "wrapper">
-        <header class = "header"></header>
-        <main class="main">
-            <form class = "form">
-                <h1 class = "form__title">Генератор случайных чисел</h1>
-                <div class = "form__item">
-                    <button id = "generate" class = "form__button button button_color-lilac">Generate</button>
-                </div>
-                <div class="form__item">
-                    <input id = "rnd" class = "form__input">
-                    <label for = "rnd" class = "form__label">10 случайных чисел от -10 до 10</label>
-                </div>
-                <div class = "form__item">
-                    <input id = "min" class = "form__input">
-                    <label for = "min" class = "form__label">Минимальное значение</label>
-                </div>
-                <div class = "form__item">
-                    <input id = "max" class = "form__input">
-                    <label for = "max" class = "form__label">Максимальное значение</label>
-                </div>
-                <div class="form__item">
-                    <input id = "avg" class = "form__input">
-                    <label for = "avg" class = "form__label">Среднее арифметическое</label>
-                </div>
-                <div class="form__item">
-                    <input id = "sum" class = "form__input">
-                    <label for = "sum" class = "form__label">Сумма чисел</label>
-                </div>
-                <div class="form__item">
-                    <input id = "mpy" class = "form__input">
-                    <label for = "mpy" class = "form__label">Произведение чисел</label>
-                </div>
-            </form>
-        </main>
-        <div class="footer"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap&subset=cyrillic-ext"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="shortcut icon" href="assets/img/numbers.png" type="img/png" />
+    <title>Random Number Geneartor</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header"></header>
+      <main class="main">
+        <form class="form">
+          <h1 class="form__title">Random Number Geneartor</h1>
+          <div class="form__item">
+            <button
+              id="generate"
+              class="form__button button button_color-lilac"
+            >
+              Generate
+            </button>
+          </div>
+          <div class="form__item">
+            <input id="rnd" class="form__input" />
+            <label for="rnd" class="form__label"
+              >10 random numbers from -10 to 10</label
+            >
+          </div>
+          <div class="form__item">
+            <input id="min" class="form__input" />
+            <label for="min" class="form__label">Min.number</label>
+          </div>
+          <div class="form__item">
+            <input id="max" class="form__input" />
+            <label for="max" class="form__label">Max.number</label>
+          </div>
+          <div class="form__item">
+            <input id="avg" class="form__input" />
+            <label for="avg" class="form__label">Average</label>
+          </div>
+          <div class="form__item">
+            <input id="sum" class="form__input" />
+            <label for="sum" class="form__label">Sum</label>
+          </div>
+          <div class="form__item">
+            <input id="mpy" class="form__input" />
+            <label for="mpy" class="form__label">Multiplication</label>
+          </div>
+        </form>
+      </main>
+      <div class="footer"></div>
     </div>
 
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
