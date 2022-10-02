@@ -7,7 +7,7 @@ The task was to write a random number generator that:
 * calculates the sum and the product of multiplication.
 
 ## Result
-<img width="45%" alt="screen capture" src="../main/assets/img/captureweb.jpeg">
+<img width="35%" alt="screen capture" src="../main/assets/img/captureweb.jpeg">
 
 ## Demo
 [Random-Number-Generator]
