@@ -2,9 +2,9 @@
 _Exercise on JavaScript array methods_
 
 The task was to write a random number generator that:
-* generates 10 random numbers in the range from -10 to 10;
-* finds the smallest, the highest and the average number among generated;
-* calculates the sum and the product of multiplication.
+* generates 10 random numbers in the range from -10 to 10
+* finds the smallest, the highest and the average number among generated
+* calculates the sum and the product of multiplication
 
 ## Result
 <img width="35%" alt="screen capture" src="../main/assets/img/captureweb.jpeg">
