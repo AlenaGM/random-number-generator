@@ -8,7 +8,7 @@ For this exercise, the goal was to create a random number generator that:
 * Calculates the sum and the product of multiplication of the generated numbers.
   
 ## Result
-<img width="35%" alt="screen capture" src="../main/assets/img/captureweb.jpeg">
+<img width="25%" alt="screen capture" src="../main/assets/img/captureweb.jpeg">
 
 ## Demo
 [Random Number Generator]
